@@ -27,10 +27,10 @@ GetSignalPeaks.exe | chartio --title test --width 1048
 ## Parameters
 |Name|Description|
 |----|-----------|
-|--ouputfile |Optional ouput filename of the chart image|
+|--ouputfile |Optional ouput filename of the chart PNG image (defaults to chart.png)|
 |--inputfile |Optional input filename of csv data|
-|--width |Width of image.|
-|--height |Height of image.|
+|--width |Optional Width of image.|
+|--height |Optional Height of image.|
 |--delimiter |Optional data field delimiter defaults to `;`|
 |--template |Optional full path to custom HTML template.|
 |help, --help, /? |Show this help.|

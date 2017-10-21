@@ -20,7 +20,7 @@ $ npm install -g chartio
 
 ```sh
 $ type datafile.data | chartio --title measurement --width 2048
-$ chartio --title measurement --width 2048 --inputfile tests.dat --outfile tests.gif
+$ chartio --title measurement --width 2048 --inputfile tests.dat --outfile tests.png
 ```
 
 
