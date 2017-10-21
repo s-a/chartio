@@ -1,0 +1,29 @@
+{
+  "name": "chartio",
+  "version": "1.0.0",
+  "description": "writes a chart image based on piped stdin data to filesystem",
+  "main": "lib/index.js",
+  "bin": {
+    "chartio": "lib/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bump": "npm version patch && git push && git push --tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a/chartio.git"
+  },
+  "author": "s-a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-a/chartio/issues"
+  },
+  "homepage": "https://github.com/s-a/chartio#readme",
+  "dependencies": {
+    "marked": "^0.3.6",
+    "marked-terminal": "^2.0.0",
+    "n-cli": "^1.2.15",
+    "puppeteer": "^0.12.0"
+  }
+}
