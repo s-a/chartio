@@ -1,6 +1,6 @@
 {
   "name": "chartio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Plot serial chart data to an image and save it to filesystem from shell.",
   "main": "lib/index.js",
   "bin": {
