@@ -7,7 +7,7 @@
 [![Dependency Status][daviddm-image]][daviddm-url] 
 [![Donate](http://s-a.github.io/donate/donate.svg)](http://s-a.github.io/donate/)
 
-> Plot serial chart data to an image and save it to filesystem or copy it to clipboard from shell
+> Plot serial chart data to an image and save it to filesystem from shell.
 
 ## Installation
 
@@ -15,21 +15,19 @@
 $ npm install -g chartio
 ```
 
-## Syntax
-
-
 
 ## Usage
 
+```sh
+$ type datafile.data | chartio --title measurement --width 2048
+$ chartio --title measurement --width 2048 --inputfile tests.dat --outfile tests.gif
+```
 
 
-## Parameters
 
-|Name|Description|
-|----|-----------|
+## Parameter details and help
 
-
-For more deatils plsease see [COMMANDLINE-ARGUMENTS.md](COMMANDLINE-ARGUMENTS.md)
+[COMMANDLINE-ARGUMENTS.md](COMMANDLINE-ARGUMENTS.md)
 
 
 ## License

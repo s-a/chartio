@@ -1,7 +1,7 @@
 {
   "name": "chartio",
   "version": "1.0.0",
-  "description": "writes a chart image based on piped stdin data to filesystem",
+  "description": "Plot serial chart data to an image and save it to filesystem from shell.",
   "main": "lib/index.js",
   "bin": {
     "chartio": "lib/index.js"

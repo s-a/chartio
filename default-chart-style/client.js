@@ -1,21 +1,29 @@
 (function () {
 
     var draw = function () {
+
+
         var mode = 'lines'
         var type = 'scatter'
         var size = [5, 5, 5, 5];
         var rawData = 'a;b;c\n1;2;3\n2;3;4\n3;4;5'
         var title = new Date().toISOString()
+        var delimiter = ';'
 
         if (window.chartioSettings) {
+        	if (chartioSettings.viewport.height){
+        		document.getElementById('chart').style.height= chartioSettings.viewport.height + 'px';
+        	}
+
             rawData = chartioSettings.rawData
             title = chartioSettings.title || title
+            delimiter = chartioSettings.delimiter || delimiter
         }
         var rows = (rawData).replace(/\r/g, '').split('\n')
         var parsedData = [];
         for (var i = 0; i < rows.length; i++) {
             var row = rows[i];
-            var cells = row.split(';')
+            var cells = row.split(delimiter)
             parsedData.push(cells)
         }
 
