@@ -10,6 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "bump": "npm version patch && git push && git push --tags && npm publish"
   },
+  "engines": {
+    "node": ">=8.7.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/s-a/chartio.git"
