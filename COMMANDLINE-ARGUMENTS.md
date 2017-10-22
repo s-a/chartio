@@ -33,5 +33,7 @@ GetSignalPeaks.exe | chartio --title test --width 1048
 |--height |Optional Height of image.|
 |--delimiter |Optional data field delimiter defaults to `;`|
 |--template |Optional full path to custom HTML template.|
+|--headless|Optional `true` or `false`. This parm is for debug purposes to fix problems in your custom templates. | 
+|--slomo|Optional defaults to 800 and slows down the execution of rendering in milliseconds. Use this in combination with ```--headless false```. | 
 |help, --help, /? |Show this help.|
 |version, --version, -v|Show version.|
