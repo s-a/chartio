@@ -21,9 +21,7 @@
   },
   "homepage": "https://github.com/s-a/chartio#readme",
   "dependencies": {
-    "marked": "^0.3.6",
-    "marked-terminal": "^2.0.0",
-    "n-cli": "^1.2.15",
+    "n-cli": "^1.2.16",
     "puppeteer": "^0.12.0"
   }
 }
