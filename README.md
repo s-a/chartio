@@ -7,7 +7,7 @@
 [![Dependency Status][daviddm-image]][daviddm-url] 
 [![Donate](http://s-a.github.io/donate/donate.svg)](http://s-a.github.io/donate/)
 
-> Plot serial chart data to an image and save it to filesystem from shell.
+> Plot serial chart data to an image and save it to filesystem from shell. Compatible with node 8.x
 
 ## Installation
 

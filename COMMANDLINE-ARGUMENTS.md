@@ -32,6 +32,7 @@ GetSignalPeaks.exe | chartio --title test --width 1048
 | --inputfile            | Optional input filename of csv data                                                               |
 | --width                | Optional Width of image.                                                                          |
 | --height               | Optional Height of image.                                                                         |
+| --title                | Optional title of image                                                                           |
 | --delimiter            | Optional data field delimiter defaults to `;`                                                     |
 | --template             | Optional full path to custom HTML template.                                                       |
 | --headless             | Optional `true` or `false`. This parm is for debug purposes to fix bugs in your custom templates. |
