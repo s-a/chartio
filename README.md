@@ -10,6 +10,8 @@
 
 > Plot serial chart data to an image and save it to filesystem from shell. Compatible with node 8.x
 
+## Attention: By mistake I have chosen a package name which is a registered trademark of a company. This package is not related to this company and the name of this module will change in the near future! Name suggestions can be submitted as ticket:)
+
 ## Installation
 
 ```sh
